@@ -1,0 +1,50 @@
+$main-font: Helvetica, sans-serif;
+$monotype: courier, monotype;
+$dark-green: #009a00;
+$dark-blue: #0000b3;
+
+body {
+  background: $dark-green;
+  font-family: $main-font;
+}
+  
+
+#editorBox {
+  background-color: #eee;
+  width: 60%;
+  height: 300px;
+  margin: 50px auto;
+}
+  
+#editor {
+  background-color: #eee;
+  width: 96%;
+  margin-left: 2%;
+  height: 240px;
+  border: none;
+  font-family: $monotype;
+  font-size: 18px;
+  overflow: scroll;
+}
+  
+.title {
+  background-color: white;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+  
+#previewBox {
+  background-color: #eee;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+  
+#preview {
+  width: 98%;
+  height: 88%;
+  margin: 25px auto;
+  overflow: scroll; 
+}
+  
+  
